@@ -1,0 +1,27 @@
+package giris;
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class class3 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Bir sayı giriniz: ");
+        int sayi = input.nextInt();
+        int toplam = 0;
+        for (int i = 1;i<100;i++){
+            toplam = toplam + (sayi%10);
+            sayi=sayi/10;
+
+            if (sayi <1){
+                break;
+            }
+
+        }
+        System.out.println(toplam);
+
+
+
+
+
+
+
+}}
